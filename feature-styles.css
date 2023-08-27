@@ -1,0 +1,244 @@
+/* Responsive styles for feature section */
+@media (max-width: 768px) {
+  .feature-section .row {
+    flex-direction: column;
+  }
+
+  .feature-section .features-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .feature-section .single-feature .con .icon {
+    columns: #fff;
+  }
+  .feature-section .single-feature .con  {
+   text-align: center;
+  }
+}
+
+/* Feature section styles */
+.feature-section {
+  padding: 50px 0;
+  color: white;
+ /* background-color: rgb(64, 69, 69);*/
+ background-color: white;
+}
+
+.feature-section .container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.feature-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-section .title {
+  color:black;
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.feature-section .title span {
+  color: wheat;
+}
+/*
+.feature-section .title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 140px;
+  height: 3px;
+  background-color: wheat;
+}
+/*
+.feature-section .title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5;
+  left: 50%;
+  width: 140px;
+  height: 6px;
+  background-color: wheat;
+  transform: translateX(-50%);
+}*/
+
+.feature-section .description {
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #6f6f71;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feature-section .features-column {
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.feature-section .features-column .single-feature {
+  position: relative;
+  margin-top: 30px;
+  background-color: #24252a;
+  border-radius: 0;
+  padding: 40px 30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  overflow: hidden;
+  text-align: center;
+}
+
+.feature-section .features-column .single-feature .con {
+  position: relative;
+  z-index: 20;
+}
+
+.feature-section .features-column .single-feature .con .icon {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 70px;
+  height: 70px;
+  /*background-color: #ff4500;*/
+  border-radius: 5px;
+  line-height: 70px;
+  text-align: center;
+  columns: #fff;
+  font-size: 30px;
+  transition: all 0.5s;
+}
+
+.feature-section .features-column .single-feature:hover .icon {
+  background-color: #fff;
+  color: #ff4500;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+
+.feature-section .features-column .single-feature .main-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 23px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.feature-section .features-column .single-feature:hover .main-title {
+  color: black;
+}
+
+.feature-section .features-column .single-feature .description {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #838383;
+  transition: color 0.3s;
+}
+
+.feature-section .features-column .single-feature:hover .description {
+  color: black;
+}
+
+.feature-section .features-column .single-feature .learnmore {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.feature-section .features-column .single-feature .learnmore:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: wheat;
+  transition: background-color 0.3s;
+}
+
+.feature-section .features-column .single-feature:hover .learnmore:after {
+  background-color: black;
+}
+
+.feature-section .features-column .single-feature .circle-before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(40%, -40%);
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.6s;
+}
+
+.feature-section .features-column .single-feature:hover .circle-before {
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+}
+
+
+/*
+
+<section class="feature-section">
+<div class="container">
+  <div class="row">
+    <div class="header-section">
+      <h2 class="title">Features</h2>
+    </div>
+    <div>
+      <p class="description"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-brands fa-accusoft"></i></span>
+          <h3 class="main-title">Expense Tracking</h3>
+          <p class="description">Effortlessly track your income and expenses to gain insights into your spending habits.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-solid fa-list-check"></i></span>
+          <h3 class="main-title">Goal Setting</h3>
+          <p class="description">Set financial goals and receive guidance on how to reach them step-by-step.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-solid fa-house-laptop"></i></span>
+          <h3 class="main-title">Budgeting Tools</h3>
+          <p class="description">Create personalized budgets and monitor your progress to achieve your financial targets.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>*/

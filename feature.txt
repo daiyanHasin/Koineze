@@ -1,0 +1,49 @@
+<section class="feature-section">
+<div class="container">
+  <div class="row">
+    <div class="header-section">
+      <h2 class="title">Features</h2>
+    </div>
+    <div>
+      <p class="description"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-brands fa-accusoft"></i></span>
+          <h3 class="main-title">Expense Tracking</h3>
+          <p class="description">Effortlessly track your income and expenses to gain insights into your spending habits.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-solid fa-list-check"></i></span>
+          <h3 class="main-title">Goal Setting</h3>
+          <p class="description">Set financial goals and receive guidance on how to reach them step-by-step.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+
+    <div class="features-column">
+      <div class="single-feature">
+        <div class="con">
+          <span class="icon"><i class="fa-solid fa-house-laptop"></i></span>
+          <h3 class="main-title">Budgeting Tools</h3>
+          <p class="description">Create personalized budgets and monitor your progress to achieve your financial targets.</p>
+          <a href="#" class="learn-more">Read more</a>
+        </div>
+        <span class="circle-before"></span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
