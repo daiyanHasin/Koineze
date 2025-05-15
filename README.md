@@ -1,1 +1,114 @@
 # Koineze
+Koineze: Personal Finance Manager
+Koineze is a web-based personal finance management system designed to help individuals track, manage, and optimize their financial activities. With an intuitive interface and a wide range of features, Koineze empowers users to gain a clearer picture of their financial health, make informed decisions, and work toward long-term financial goals.
+
+📌 Key Features
+User Authentication – Secure signup and login system.
+
+Subscription Plans – Choose from different financial plans tailored to your needs.
+
+Dashboard – Overview of income, expenses, savings, and investments at a glance.
+
+Transaction Management – Add and categorize income and expenses.
+
+Receipt Upload – Attach images of transaction receipts.
+
+Search & Filter – Easily locate past transactions based on filters.
+
+Budget & Goal Setting – Customize financial plans and track progress.
+
+Interactive Graphs – Visual representation of financial data through charts.
+
+User Profile – Update personal details and manage your account.
+
+🌍 Sustainable Development Goals (SDGs)
+Koineze aligns with multiple SDGs, including:
+
+Goal 3: Good Health and Well-being (financial wellness)
+
+Goal 4: Quality Education (financial literacy resources)
+
+Goal 8: Decent Work and Economic Growth
+
+Goal 11 & 12: Sustainable Communities and Responsible Consumption
+
+🔐 Security & Privacy
+Koineze ensures user trust by:
+
+Encrypting sensitive data
+
+Secure login authentication
+
+Following data privacy regulations
+
+Integrating with reliable financial data sources
+
+💡 Technologies Used
+Frontend: HTML, CSS, JavaScript
+
+Backend: PHP
+
+Database: MySQL
+
+Design Tools: ERD, DFD, Use Case Diagrams
+
+🧠 Research Areas
+User experience optimization
+
+Financial behavior analysis
+
+Market trends in fintech
+
+Data privacy and security
+
+Integration of future tech (e.g., AI-based assistants)
+
+🤝 Social Impact
+Koineze promotes:
+
+Financial literacy and responsible habits
+
+Inclusion and accessibility in finance
+
+Community support through local spending and responsible investing
+
+Reduced financial stress through smart planning
+
+📦 Project Structure
+
+/koineze
+│
+├── index.html         # Landing Page
+├── login.php          # Authentication
+├── dashboard.php      # Main user dashboard
+├── profile.php        # User account management
+├── add_transaction.php# Add income/expenses
+├── upload_receipt.php # Upload receipts
+├── graphs.php         # Data visualization
+├── db/                # Database scripts
+└── assets/            # CSS, JS, Images
+
+
+📈 Future Scope
+Integration with bank APIs
+
+AI-based financial recommendations
+
+Mobile app version
+
+Multi-currency support
+
+Real-time collaboration for families or financial advisors
+
+🙋 Authors
+Hasin Md. Daiyan (Team Lead)
+
+Amit Karmakar
+
+Ahmed Al Nahian
+
+Submitted for:
+Information System Design & Software Engineering Lab
+Ahsanullah University of Science and Technology (AUST)
+
+
